@@ -1,0 +1,76 @@
+*
+{
+   margin: 0px;
+   padding: 0px;
+}
+header{
+    background-color: blue;
+    padding: 20px;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+h2
+{
+    font-size: 1.5rem;
+    text-align: center;
+}
+table{
+    margin-left:20% ;
+}
+
+.lab{
+    padding-left: 8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.sem{
+    padding-left:5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.inp input{
+    padding-left:3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+} 
+.inp select{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.inp select:focus{
+    background-color:rgb(97, 189, 217);}
+.inp input:focus{
+    background-color:rgb(97, 189, 217);
+}
+.di{
+    
+    margin-left: 40%;
+}
+.di button{
+    border: 2px solid red;
+    width: fit-content;
+}
+.di button:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+
+@media (max-width:600) and (min-width:375) {
+    .di{
+    
+        margin-left: 10%;
+    }
+    table{
+        margin-left:5% ;
+    }
+}
